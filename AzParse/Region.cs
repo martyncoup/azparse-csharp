@@ -3,12 +3,13 @@ namespace AzParse;
 
 public static class Region
 {
-    public static string ConvertRegionToFriendlyName(this string value)
+    public static string? ConvertRegionToFriendlyName(this string value)
     {
-        return RegionMap.TryGetValue(value, out var displayName) ? displayName : value;
+        return _regionMap.Where(w => w.Key.Contains(value, StringComparison.InvariantCultureIgnoreCase))
+            .Select(s => s.Value).FirstOrDefault();
     }
 
-    public static Dictionary<string, string> RegionMap = new()
+    private static Dictionary<string, string> _regionMap = new()
 	{
         { "eastus", "East US" },
         { "eastus2", "East US 2" },

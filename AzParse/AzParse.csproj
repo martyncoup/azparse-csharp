@@ -1,9 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageVersion>0.0.1-alpha</PackageVersion>
+    <Title>AzParse</Title>
+    <Authors>Martyn Coupland</Authors>
+    <Description>Library to help convert Azure regions and resource providers into friendly display names.</Description>
+    <PackageProjectUrl>https://github.com/martyncoup/azparse-csharp/issues</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/martyncoup/azparse-csharp/blob/main/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/martyncoup/azparse-csharp</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
 </Project>

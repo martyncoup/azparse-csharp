@@ -75,7 +75,7 @@ public static class Region
         { "westcentralus", "West Central US" },
         { "southafricawest", "South Africa West" },
         { "australiacentral", "Australia Central" },
-        { "australiacentral", "Australia Central 2" },
+        { "australiacentral2", "Australia Central 2" },
         { "australiasoutheast", "Australia Southeast" },
         { "japanwest", "Japan West" },
         { "jioindiacentral", "Jio India Central" },

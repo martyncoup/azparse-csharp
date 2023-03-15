@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <Title>AzParse</Title>
     <Authors>Martyn Coupland</Authors>
     <Description>Library to help convert Azure regions and resource providers into friendly display names.</Description>
